@@ -3,11 +3,11 @@
 # ----------------------- #
 
 url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: 俺の持病は釘宮病
+subtitle: 技術的なメモ
+author: 2celeb
 simple_search: http://google.com/search
-description:
+description: このブログは主に @2celebの技術的なメモとか雑感とか日記とかが書かれてます。
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -63,13 +63,13 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: 2celeb
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: 2celeb
 twitter_tweet_button: true
 
 # Google +1
@@ -98,3 +98,13 @@ google_analytics_tracking_id:
 
 # Facebook Like
 facebook_like: false
+
+facebook_user: https://www.facebook.com/makoto.takagi.ja    
+
+navigation:
+- text: 俺の持病は釘宮病
+- text: Home
+  url: /index.html
+- text: New Page Title
+  url: /new_page_name.html
+
