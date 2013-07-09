@@ -97,9 +97,9 @@ disqus_show_comment_count: false
 google_analytics_tracking_id:
 
 # Facebook Like
-facebook_like: false
+facebook_like: true
 
-facebook_user: https://www.facebook.com/makoto.takagi.ja    
+facebook_user: makoto.takagi.ja
 
 navigation:
 - text: 俺の持病は釘宮病
