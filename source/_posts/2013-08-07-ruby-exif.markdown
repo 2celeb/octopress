@@ -1,0 +1,49 @@
+---
+layout: post
+title: "rubyから画像のExifを参照する"
+date: 2013-08-07 21:08
+comments: true
+categories: ruby exif exifr 画像 image
+---
+
+
+rubyから画像のExifを参照することによっていろいろと捗ります。
+
+
+```bash
+gem install exifr
+```
+
+
+```ruby
+require 'rubygems'
+require 'exifr'
+
+e = EXIFR::JPEG::new('DSC_0003.jpg')
+
+# 緯度経度
+puts e.gps.latitude
+puts e.gps.long_latitude
+
+# 日時
+puts e.date_time
+
+# カメラ名
+puts e.model
+
+```
+
+こんな出力が得られる
+
+```bash
+35.66515472222222
+139.73944083333333
+2013-08-07 20:43:39 +0900
+SGP312
+```
+
+
+詳しくはこちらを参照
+
+https://github.com/remvee/exifr
+
